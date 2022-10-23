@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            transition: all .4s;
+            transform-style: preserve-3d;
+        }
+        .box:hover {
+            transform: rotateY(180deg);
+        }
+        .fronter,
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 200px;
+        }
+        .fronter {
+            z-index: 1;
+            background-color: aqua;
+            backface-visibility: hidden;
+        }
+        .back {
+            background-color: aquamarine;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="fronter">1</div>
+        <div class="back">2</div>
+    </div>
+</body>
+</html>

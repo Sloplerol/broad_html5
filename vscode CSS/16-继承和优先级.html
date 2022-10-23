@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background: rgba(0,0,0, 0.5);
+            /* 修饰的是背景颜色和文字浅淡没关系 */
+            width: 100px;
+            height: 100px;
+        }
+        div {
+            background-color: aqua;
+            /* 层叠覆盖 */
+            color: green;
+        }
+        body {
+            font: 20px/1.5 'Arial, Helvetica, sans-serif';
+        }
+        .lei {
+            color: pink;
+        }
+        /* 优先级:元素选择器小于类选择器和伪类选择器小于id选择器小于行内选择器小于!important */
+    </style>
+</head>
+<body>
+    <div>
+        ajsdja
+        <p class="lei">继承性</p>
+    </div>
+    <p>666</p>
+    <ul>
+        <li>djsajds </li>
+    </ul>
+</body>
+</html>

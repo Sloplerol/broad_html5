@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma,'Lucida Grande',Verdana,'Microsoft Yahei',STXihei,hei;
+    color: #000;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    height: 10000px;
+}
+.search-index {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    min-width: 320px;
+    max-width: 540px;
+    border: 1px solid #ccc;
+    background-color: #f6f6f6;
+}
+.search-index .search {
+    flex: 1;
+    height: 26px;
+    border: 1px solid #333;
+    margin: 5px 5px;
+    border-radius: 6px;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+    line-height: 24px;
+    padding-left: 10px;
+    color: #333;
+}
+.search-index .search::before {
+    font-family: 'icomoon';
+    content: '';
+    padding-top: 16px;
+    padding-right: 5px;
+}
+.search-index a {
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+.search-index a::before {
+    font-family: 'icomoon';
+    content: '';
+    font-size: 16px;
+    padding-left: 14px;
+}
+.search-index a span {
+    display: block;
+    text-align: center;
+}
+.focus img {
+    width: 100%;
+    padding-top: 44px;
+}
+.nav ul {
+    display: flex;
+    height: 60px;
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    flex: 1;
+}
+.nav ul li a span:nth-child(n) img{
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+.nav ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop {
+    flex: 1;
+}
+.imnav {
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 0 4px 3px;
+    
+}
+.imnav [class ^= 'nav'] {
+    height: 88px;
+    /* 线性渐变必须添加浏览器私有前缀 */
+}
+
+.nav-first {
+    display: flex;
+}
+.nav-first:nth-child(1) {
+    background: -webkit-linear-gradient(top left,rgb(231, 104, 91),rgb(234, 156, 90));
+}
+.nav-first:nth-child(2) {
+    background: -webkit-linear-gradient(top left,rgb(92, 143, 228),rgb(110, 183, 232));
+}
+.nav-first:nth-child(3) {
+    background: -webkit-linear-gradient(top left,rgb(98, 193, 166),rgb(130, 209, 108));
+}
+.nav-first .nav-word {
+    display: flex;
+    flex: 1;
+    
+}
+.nav-first .nav-word:nth-child(-n+2) {
+    border-right: 1px solid white;
+}
+.nav-first .nav-word .two {
+    flex-direction: column;
+    
+    flex: 1;
+}
+.nav-first .nav-word:nth-child(1) a {
+    width: 100%;
+    text-align: center;
+}
+.nav-first .nav-word:nth-child(1) a span {
+    display: block;
+}
+.nav-first .nav-word:nth-child(1) a span img {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-top: 11px;
+}
+.nav-word:nth-child(n+2) {
+    display: flex;
+    flex-direction: column;
+}
+.nav-word:nth-child(n+2) a {
+    text-align: center;
+    flex: 1;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    line-height: 44px;
+}
+.nav-word:nth-child(n+2) a:nth-child(2) {
+    border-top: 1px solid white;
+}
+.nav-first:nth-child(2) {
+    margin: 7px 0;
+}
+.delnav {
+    display: flex;
+    border-radius: 7px;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.delnav li {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.delnav-img {
+    display: block;
+    width: 28px;
+    height: 28px;
+    flex: 1;
+}
+.delnav-img img {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.delnav span:nth-child(2) {
+    margin-left: 6px;
+}
+.sales-box {
+    margin-top: 10px;
+    border-top: 1px solid #333;
+}
+.sales-box .sale-hd {
+    position: relative;
+    height: 44px;
+    background-color: aqua;
+}
+.sales-box .sale-bd {
+    height: 88px;
+    background-color: aquamarine;
+}
+.sale-hd .hd-left h2 img {
+    position: absolute;
+    top: 0;
+    left: 26px;
+    width: 20px;
+    height: 20px;
+
+}
+.sale-hd .hd-left a {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+.hd-right {
+    background-color: white;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    border-radius: 6px;
+    padding-right: 15px;
+}
+.hd-right::after {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    content: '';
+    padding: 5px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
+.row {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.row a {
+    flex: 1;
+}
+.row a img {
+    width: 100%;
+    height: 300px;
+}
+.row a:nth-child(1) {
+    border-right: 1px solid gray;
+}
+

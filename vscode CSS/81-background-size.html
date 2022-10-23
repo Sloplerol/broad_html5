@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            margin: 100px auto;
+            width: 500px;
+            height: 200px;
+            border: 2px solid red;
+            background: url(/旋转木马案例.png) no-repeat;
+            /* background-size: 300px 200px;  */
+            /* 可以实现对图像的拉伸   */
+            /* background-size: 50%; */
+            /* background-size: 250px; */
+            /* 只设置一个会等比例缩放 */
+            /* background-size: cover; */
+            /* 等比例拉伸直至全部覆盖可能有部分溢出 */
+            background-size: contain;
+            /* 等比例拉伸当一边拉满后停止拉伸 */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

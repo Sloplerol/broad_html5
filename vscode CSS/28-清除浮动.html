@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 400px;
+            margin: 0px auto;
+            background-color: white;
+            border: 1px solid black;
+            /* overflow: hidden;清除浮动 */
+            /* 不给父亲设置高度由儿子来撑开决定*/
+        }
+        .son1 {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        .son2 {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .footer {
+            height: 200px;
+            background-color: black;
+        }
+        .clear {
+            clear: both;
+        }
+        /* 清除浮动来避免子盒子不占用盒子空间 */
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son1">
+        </div>
+        <div class="son2"></div>
+        <div class="clear"></div>
+        <!-- 新增clear元素必须是块级元素 -->
+    </div>
+    <div class="footer"></div>
+    <!-- 在设置浮动情况下,父盒子高度变为零,footer内容往上移 -->
+</body>
+</html>

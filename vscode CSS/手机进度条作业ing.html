@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            width: 200px;
+            height: 350px;
+            margin: 0 auto;
+        }
+        .box_in {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 13px;
+            color: gray;
+        }
+        .price {
+            
+            margin: 0px 20px;
+            font-size: 16px;
+        }
+        .price span {
+            
+            text-decoration: line-through;
+            margin-left: 10px;
+            color: gray;
+            font-size: 10px;
+        }
+        .process {
+            width: 200px;
+            height: 15px;
+            margin: 0 10px;
+            font-size: 12px;
+        }
+        .process .process_in {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            border: 1px solid green;
+            border-radius: 7px;
+            background-color: red;
+            transition: all .5s;
+            font-size: 10px;
+            color: gray;
+            
+        }
+        .process:hover .process_in {
+            width: 100px;
+        }
+        button {
+            width: 200px;
+            height: 30px;
+            margin-top: 20px;
+            background-color: red;
+            color: #ffffff;
+            padding: 0 2.5px;
+            text-align: center;
+            line-height: 30px;
+            border: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="/iphone.png" alt="">
+        <div class="box_in">
+            苹果6新鲜出炉!!!太强了苹果6新鲜出炉!!!
+        </div>
+        <div class="price">
+            $543<span>$322</span>
+        </div>
+            
+            <span class="process">
+                已受
+                <span class="process_in">加载中...</span>
+                剩余83%
+            </span>
+
+            <button>点击购买</button>
+    </div>
+    
+</body>
+</html>

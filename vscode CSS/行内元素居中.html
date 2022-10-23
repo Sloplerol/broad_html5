@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            text-align: center;
+        }
+        .box a {
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            border: 1px solid rgb(222, 224, 221);
+
+        }
+        .box .first,
+        .box .last {
+            font-size: 14px;
+            width: 60px;
+        }
+        .box .empty {
+            border: none;
+        }
+        .box input {
+            width: 60px;
+            height: 30px;
+            outline: none;
+        }
+        .box button {
+            width: 40px;
+            height: 36px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#" class="first">&lt;&lt;上一页</a>
+        <a href="#" class="empty">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#" class="empty">...</a>
+        <a href="#" class="last">&gt;&gt;下一页</a>
+        跳到第<input type="text">页<button>点击</button>
+    </div>
+</body>
+</html>

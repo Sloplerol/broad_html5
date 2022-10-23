@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes move {
+            0% {
+                transform: translate(0,0);
+            }
+            100% {
+                transform: translate(1000px,0);
+            }
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            animation-name: move;
+            animation-duration: 2s;
+            /* animation-timing-function: ease;
+            曲线
+            animation-delay: 2s;
+            几秒后开始 */
+            background-color: aqua;
+            /* animation-iteration-count: infinite; */
+            /* 重复几次 */
+            /* animation-direction: alternate; */
+            animation-fill-mode: forwards;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* 综合写法 */
+        
+        }
+        div:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

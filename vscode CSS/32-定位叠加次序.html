@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+        }
+        .wo {
+            background-color: aqua;
+            z-index: 1;
+        }
+        .ni {
+            
+            background-color: blue;
+        }
+        .ta {
+            
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- 定位叠加次序按z-index大小来 -->
+    <!-- 如果没有z-index按顺序来 -->
+    <div class="box wo"></div>
+    <div class="box ni"></div>
+    <div class="box ta"></div>
+</body>
+</html>

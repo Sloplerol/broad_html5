@@ -1,0 +1,491 @@
+.header {
+    height: 75px;
+    background-color: rgb(44, 87, 130);
+}
+.header .logo::before {
+    float: left;
+    padding: 0 15px;
+    font-family: 'icomoon';
+    content: '';
+    font-size: 35px;
+    line-height: 75px;
+}
+.logo {
+    color: black;
+}
+.logo:hover {
+    color: black;
+}
+.header h1 {
+    padding: 0 15px;
+    float: left;
+    font-size: 35px;
+    line-height: 75px;
+}
+.header h1 span {
+    color: rgb(66, 135, 183);
+}
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(44, 87, 130);
+    height: 32px;
+    font-size: 14px;
+}
+.nav ul li {
+    float: left;
+    padding: 0 16px;
+    line-height: 32px;
+}
+.nav ul li:hover {
+    background: rgba(0,0,0,0.3);
+}
+.nav ul li a {
+    color: rgb(195, 221, 242);
+}
+.nav ul li .jiantou::after {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(66, 135, 183);
+}
+.load {
+    height: 32px;
+    color: rgb(195, 221, 242);
+}
+.load .login {
+    float: left;
+    background: rgba(0,0,0,0.3);
+    margin-left: 450px;
+}
+.search {
+    background: rgba(0,0,0,0.3);
+    width: 86px;
+    float: right;
+    margin-left: 20px;
+    height: 32px;
+    line-height: 32px;
+}
+.search a {
+    display: block;
+    color: rgb(195, 221, 242);
+    text-align: center;
+}
+.search a:hover {
+    color: rgb(200, 220, 240);
+    background: rgba(0,0,0,0.3);
+}
+.search a::after {
+    content: '';
+    font-family: 'icomoon';
+    vertical-align: middle;
+}
+.relative {
+    position: relative;
+    height: 30px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    font-size: 12px;
+    background-color: white;
+}
+.relative a {
+    color: rgb(44, 87, 130);
+}
+.relative a:hover {
+    text-decoration: underline;
+    color: rgb(43, 87, 130);
+}
+.left {
+    position: absolute;
+    top: 4px;
+    left: 55px;
+
+}
+.right {
+    position: absolute;
+    top: 4px;
+    left: 185px;
+}
+.box {
+    float: left;
+    width: 1080px;
+    background-color: rgb(236, 236, 236);
+}
+.box1 {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 240px;
+    margin: 0 15px 50px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.box1 h3 {
+    height: 40px;
+    background-color: rgb(245, 249, 255);
+    border: 1px solid rgb(223, 223, 223);
+    line-height: 40px;
+    padding-left: 5px;
+}
+.box1bd {
+    height: 154px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    background-color: white;
+}
+.box1hd {
+    width: 440px;
+    height: 34px;
+    margin-left: 42px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    line-height: 36px;
+    font-size: 12px;
+}
+.box1hd a {
+    color: rgb(140, 140, 140);
+}
+.box1hd a:hover {
+    color: rgb(140, 140, 140);
+}
+.box1hd::before {
+    content: '';
+    font-family: 'icomoon';
+    color: rgb(140, 140, 140);
+}
+.box1hd:hover {
+    text-decoration: underline;
+}
+.box1hd span::before {
+    content: '';
+    font-family: 'icomoon';
+}
+.box1bd p img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 68px;
+    height: 68px;
+    float: right;
+}
+.risi {
+    float: right;
+    color: rgb(140, 140, 140);
+}
+.risi::before {
+    content: '';
+    font-family: 'icomoon';
+}
+.risi span::before {
+    content: '';
+    font-family: 'icomoon';
+}
+.lepos {
+    float: left;
+    width: 49px;
+    height: 72px;
+    position: absolute;
+    top: 52px;
+    left: -10px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px 5px;
+    font-size: 15px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.lepos i {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.last {
+    height: 48px;
+    background-color: rgb(247, 247, 247);
+}
+.continue {
+    float: right;
+    width: 105px;
+    height: 27px;
+    border-radius: 7px;
+    background-color: rgb(62, 117, 172);
+    line-height: 27px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px
+}
+.continue a {
+    color: white;
+}
+.continue a:hover {
+    color: white;
+    
+}
+.continue:hover {
+    background-color: rgb(50, 95, 139);
+}
+.box2 {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 240px;
+    margin: 0 15px 50px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.box2 h3 {
+    height: 40px;
+    background-color: rgb(245, 249, 255);
+    border: 1px solid rgb(223, 223, 223);
+    line-height: 40px;
+    padding-left: 5px;
+}
+.box3 {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 240px;
+    margin: 0 15px 50px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.box3 h3 {
+    height: 40px;
+    background-color: rgb(245, 249, 255);
+    border: 1px solid rgb(223, 223, 223);
+    line-height: 40px;
+    padding-left: 5px;
+}
+.box4 {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 240px;
+    margin: 0 15px 50px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.box4 h3 {
+    height: 40px;
+    background-color: rgb(245, 249, 255);
+    border: 1px solid rgb(223, 223, 223);
+    line-height: 40px;
+    padding-left: 5px;
+}
+.ad {
+    float: right;
+    width: 296px;
+    float: right;
+}
+.hd {
+    padding-top: 13px;
+    height: 121px;
+}
+.hd h4,
+.hd p,
+.hd h3 {
+    text-align: center;
+    font-size: 14px;
+    
+}
+h4 a,
+h3 a {
+    color: rgb(44, 87, 130);
+}
+.hd h3 {
+    margin-top: 4px;
+}
+.sidehd {
+    width: 296px;
+    height: 95px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: white;
+}
+.top {
+    height: 67px;
+}
+.top h3 {
+    padding-top: 13px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+.top ul {
+    margin-top: 6px;
+}
+.top ul li {
+    padding-left: 4px;
+    float: left;
+}
+.top ul li a {
+    font-size: 12px;
+    color: rgb(97, 165, 229);
+}
+.sidehd .bottom {
+    height: 28px;
+    background-color: rgb(247, 247, 247);
+    padding-left: 4px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.review {
+    height: 495px;
+    background-color: white;
+    margin-top: 20px;
+}
+.review h3 a {
+    color: rgb(97, 165, 229);
+    padding: 2px;
+}
+.commet ul li {
+    float: right;
+}
+.commet ul img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-left: 2px;
+}
+.commet ul .down {
+    padding-left: 24px;
+    color: rgb(140, 140, 140);
+    font-size: 14px;
+}
+.commet h4 a {
+    color: rgb(62, 117, 172);
+    font-size: 16px;
+}
+.orange {
+    width: 98px;
+    height: 27px;
+    background-color: rgb(229, 151, 56);
+    color: white;
+    border: 0;
+    margin-left: 480px;
+    border-radius: 8px;
+}
+.orange:hover {
+    background-color: rgb(192, 127, 46);
+}
+.con {
+    margin-top: 50px;
+    width: 1070px;
+    height: 980px;
+    background-color: white;
+}
+.con h3 {
+    height: 40px;
+    background-color: rgb(242, 248, 253);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 8px;
+    line-height: 40px;
+    
+}
+.con h3 a:hover {
+    text-decoration: underline;
+    color: rgb(62, 117, 172);
+}
+.cir {
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 18px;
+    background-color: purple;
+    margin-right: 10px;
+}
+.yuan {
+    padding: 12px;
+}
+.cirigh {
+    float: left;
+    color: rgb(62, 117, 172);
+}
+.cirigh a {
+    font-size: 12px;
+} 
+.con ul li {
+    height: 60px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.center {
+    float: right;
+    color: rgb(140, 140, 140);
+    font-size: 16px;
+}
+.center p {
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+}
+.data {
+    float: right;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.data p {
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+}
+.final {
+    float: right;
+    font-size: 16px;
+    color: rgb(44, 87, 130);
+    margin-left: 70px;
+}
+.final p {
+    font-size: 12px;
+    margin-left: 104px;
+}
+.lapic {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: pink;
+    border-radius: 12px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.view {
+    width: 91px;
+    height: 27px;
+    background-color: rgb(62, 117, 172);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 960px;
+    margin-top: 6px;
+}
+.view:hover {
+    background-color: rgb(50, 95, 139);
+}
+.footer {
+    height: 87px;
+    background-color: rgb(26, 53, 80);
+    margin-top: 1675px;
+}
+.first {
+    height: 25px;
+}
+.first a {
+    float: left;
+    color: rgb(195, 221, 243);
+}
+.kaoyou ul li {
+    float: right;
+    padding: 0 5px;
+    line-height: 25px;
+}
+.font::after {
+    content: '';
+    font-family: 'icomoon';
+}
+.kaoyou a {
+    color: rgb(195, 221, 243);
+}
+.second h4 a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.second p {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.second p a {
+    color: white;
+}

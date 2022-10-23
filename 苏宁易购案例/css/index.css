@@ -1,0 +1,106 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  width: 15rem;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.search-content {
+  width: 15rem;
+  height: 1.8rem;
+  background-color: #df732e;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  display: flex;
+}
+.search-content .sort {
+  height: 1.2rem;
+  width: 0.72rem;
+  background: url(/images/sort_module.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+  margin: 0.2rem 0.2rem;
+}
+.search-content .search-input {
+  flex: 1;
+  background-color: aqua;
+}
+.search-content .search-input input {
+  height: 1.32rem;
+  width: 100%;
+  border-radius: 0.4rem;
+  border: 0;
+  outline: none;
+  font-size: 0.5rem;
+  color: gray;
+  padding-left: 0.4rem;
+}
+.search-content .user {
+  width: 0.72rem;
+  height: 1.2rem;
+  margin: 0.2rem 0.2rem;
+  background-color: aquamarine;
+  background: url(/images/user.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+}
+.banner img {
+  display: block;
+  width: 15rem;
+  margin-top: 1.8rem;
+}
+.ad {
+  display: flex;
+}
+.ad a {
+  flex: 1;
+}
+.ad a img {
+  width: 100%;
+}
+.nav {
+  width: 14rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 18px;
+}
+.nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+  flex: 1;
+  margin: 0.4rem 0.4rem 0;
+  text-align: center;
+}
+.nav a img {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0.2rem auto 0;
+}
+.nav a span {
+  display: block;
+  font-size: 0.28rem;
+  color: #333;
+}

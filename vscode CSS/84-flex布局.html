@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            /* 任意布局都可以用flex */
+            width: 80%;
+            height: 400px;
+            background-color: aqua;
+            
+            /* flex-direction: row;
+            默认情况下主轴为x轴 */
+            /* flex-direction: column;
+            设置主轴为y轴 */
+            /* flex-direction: row-reverse; 
+            设置为靠右反转*/
+            /* justify-content: flex-start;
+            默认情况下从左开始排序 */
+            /* justify-content: flex-end;
+            靠右开始排序 */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* 让侧轴也居中显示 */
+            /* 居中 */
+            /* align-items: stretch;
+            侧轴拉伸 */
+            /* justify-content: space-around;
+            平均分配每一段空间 */
+            /* justify-content: space-between; */
+            /* 两边先贴边然后再平均分配空间 */
+            /* flex-wrap: nowrap;
+            默认情况下是强制一行显示 */
+            /* flex-wrap: wrap; */
+            /* flex换行 */
+            flex-wrap: wrap;
+            align-content: center;
+            align-content: space-between;
+            /* align-content只针对多行 */
+            /* 单行用align-items */
+            /* flex-flow: direction wrap; 综合写法*/
+        }
+        div span {
+            width: 300px;
+            height: 100px;
+            /* 在子盒子不设置高度的情况下可以拉伸高度 */
+            background-color: aquamarine;
+            margin-right: 10px;
+            /* 默认情况下当多个span总体宽度大于div宽度时flex会压缩每个元素都width来实现在一行显示 */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>5</span>
+        <span>4</span>
+    </div>
+</body>
+</html>

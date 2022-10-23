@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input::placeholder {
+            color: aqua;
+        }
+        input[type=text] {
+            color: pink;
+        }
+        /* 属性选择器权重为10 */
+        /* 属性选择器 */
+        div[class^='a'] {
+            color: aquamarine;
+        }
+        /* 挑选第一位为a的类 */
+    </style>
+</head>
+<body>
+    <ul>
+        <li><input type="search"></li>
+        <li><input type="color"></li>
+        <li><input type="number"></li>
+        <li><input type="email"></li>
+        <li><input type="date"></li>
+    </ul>
+    <form action="">
+        <!-- <input type="search" name="" id="" required="required"> -->
+        <!-- <input type="search" name="" id="" placeholder="请填写字段"> -->
+        <!-- 不点击时显示的内容及书写内容覆盖 -->
+        <input type="search" autofocus="autofucus" name="demo" autocomplete="off">
+        <!-- 要使用autocomp属性要设置name,autocomplete尽量显示关闭否则不安全 -->
+        <input type="file" name="" id="" multiple="multiply">
+        <input type="text" name="" id="">
+        <!-- multiply选择多个文件 -->
+        <!-- 当打开页面时自动进入搜索模式 -->
+        <input type="submit" value="dianji">
+        <div class="a1">abc1</div>
+        <div class="a2">sjadj</div>
+        <div class="jdjw">sajdjs</div>
+    </form>
+</body>
+</html>

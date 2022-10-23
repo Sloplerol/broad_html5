@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    width: 1200px;
+    height: 42px;
+    margin:30px auto ;
+}
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+.nav ul li a {
+    display: block;
+    font-size: 18px;
+    color: #050505;
+    height: 42px;
+    padding: 0 15px;
+    line-height: 42px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a:hover{
+    border-bottom: 1px solid #00a4ff;
+    color: #00a4ff;
+}
+.search input {
+    margin-left: 70px;
+    float: left;
+    border: 1px solid #00a4ff;
+    width: 360px;
+    height: 40px;
+    font-size: 14px;
+    border-right: 0;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(/images/search_05.png);
+    border: 0;
+}
+.avater {
+    float: right;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666666;
+}
+.avater img {
+    vertical-align: middle;
+}
+.banner {
+    height: 418px;
+    background-color: #1c036c;
+}
+.banner .w {
+    height: 418px;
+    background: url(/images/banner2.png);
+}
+.subnav {
+    float: left;
+    width: 195px;
+    height: 418px;
+    background: rgba(0,0,0,0.3);
+}
+.subnav ul li a {
+    display: block;
+    padding: 0 20px;
+    height: 43px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 43px;
+}
+.subnav ul li a span {
+    float: right;
+}
+.subnav ul li a:hover{
+    color: #00a4ff
+}
+.course {
+    width: 217px;
+    height: 330px;
+    float: right;
+    background-color: white;
+    /* 浮动的盒子没有外边距合并的问题 */
+    margin-top: 50px;
+}
+.bd {
+    padding: 0 20px;
+}
+.course h3 {
+    height: 45px;
+    line-height: 45px;
+    background-color: #9bceea;
+    font-size: 18px;
+    color: white;
+    padding: 0 56px;
+}
+.course .bd ul li h4{
+    color: #717171;
+    font-size: 16px;
+}
+.course .bd ul li p {
+    color: #bdbdbd;
+    font-size: 12px;
+}
+.course .bd ul li {
+    border-bottom: 1px solid #a5a5a5;
+    padding: 15px 0;
+}
+.course .bd .more {
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #22b0ff;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: #00a4ff;
+}
+.goods {
+    background-color: white;
+    box-shadow: 0 4px 3px 3px rgba(0,0,0,0.1);
+    height: 60px;
+    margin-top: 10px;
+    line-height: 60px; 
+    font-size: 16px;
+}
+.goods h2 {
+    float: left;
+    color: #00a4ff;  
+    margin-left: 30px;  
+}
+.goods ul {
+    float: left;
+}
+.goods ul li {
+    float: left;
+}
+.goods ul li a {
+    padding: 0 30px;
+    color: black;
+    border-left: 1px solid #bfbfbf;
+    font-size: 16px;
+}
+.goods .right {
+    float: right;
+    color: #00a4ff;
+    margin-right: 30px;
+}
+.subhead {
+    height: 67px;
+    line-height: 67px;
+    
+}
+.subhead h1 {
+    float: left;
+}
+.subhead .renew {
+    float: right;
+    color: #bfbfbf;
+}
+.word {
+    overflow: hidden;
+    width: 1215px;
+    
+}
+.word ul li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 268px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.word ul li>img {
+    width: 100%;
+}
+.word ul li em img {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
+.word ul li h3 {
+    font-size: 14px;
+    margin: 24px 10px 16px 19px;
+    color: black;
+}
+.word ul li .clean {
+    margin-right: 0;
+}
+.word ul li .last span {
+    color: #ff7c2d;
+
+}
+.word ul li .last {
+    color: black;
+    font-size: 12px;
+    margin: 0 10px 0 19px;
+}
+.footer {
+    margin-top: 38px;
+    height: 421px;
+    background-color: white;
+    padding: 30px 0;
+}
+.footer .copyright {
+    margin-left: 18px;
+    float: left;
+}
+.footer .copyright p{
+    font-size: 12px;
+    color: black;
+    margin: 20px 0;
+}
+.footer .copyright .download {
+    display: block;
+    width: 116px;
+    height: 32px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 18px;
+}
+.links {
+    float: right;
+}
+.links dl {
+    margin-left: 110px;
+    float: left;
+}
+.links dl dt {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.links dl dd {
+    font-size: 12px;
+    margin-bottom: 5px;
+}

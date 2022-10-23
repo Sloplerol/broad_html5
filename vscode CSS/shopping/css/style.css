@@ -1,0 +1,264 @@
+
+.shortcut {
+     height: 30px;
+     background-color: #f1f1f1;
+}
+.left {
+    float: left;
+    color: #666666;
+    font-size: 12px;
+}
+.left ul li {
+    float: left;
+    margin-left: 14px;
+    line-height: 30px;
+    
+}
+.left ul li a {
+    color: red;
+    margin-left: 13px;
+}
+.right {
+    float: left;
+    margin-left: 95px;
+}
+.right ul li {
+    float: left;
+}
+.right ul li a {
+    display: inline-block;
+    line-height: 10px;
+    color: #666666;
+    height: 10px;
+    border-right: 1px solid #666666;
+    padding: 0 8px;
+    font-size: 12px;
+}
+.right .last a {
+    border-right: 0;
+}
+.point ul li {
+    float: right;
+}
+.point ul li a {
+    font-family: 'icomoon';
+    color: #666666;
+    font-size: 12px;
+    height: 10px;
+    line-height: 10px;
+    padding: 0 40px;
+    
+}
+.header {
+    position: relative;
+    height: 105px;
+
+}
+.logo {
+    width: 178px;
+    height: 68px;
+    position: absolute;
+    top: 21px;
+}
+.logo a {
+    display: block;
+    width: 178px;
+    height: 68px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    left: 454px;
+    top: 25px;
+    width: 536px;
+    height: 33px;
+    border: 2px solid red;
+    color: #666666;
+    
+}
+.search input {
+    float: left;
+    width: 454px;
+    height: 29px;
+    padding-left: 10px;
+    border: 0;
+}
+.search button {
+    float: left;
+    width: 78px;
+    height: 29px;
+    color: white;
+    background-color: red;
+    line-height: 29px;
+    font-size: 16px;
+    border: 0;
+
+}
+.hotword {
+    position: absolute;
+    left: 454px;
+    top: 60px;
+    
+}
+.hotword a {
+    margin-right: 25px;
+}
+.shop {
+    position: absolute;
+    right: 63px;
+    top: 25px;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    width: 138px;
+    height: 34px;
+    color: black;
+    line-height: 34px;
+    text-align: center;
+}
+.shop::before {
+    font-family: 'icomoon';
+    content: '';
+    margin-right: 7px;
+    color: #c81623;
+    font-size: 12px;
+}
+.shop::after {
+    font-family: 'icomoon';
+    content: '';
+    margin-left: 14px;
+    font-size: 12px;
+}
+.count {
+    position: absolute;
+    top: -6px;
+    left: 104px;
+    /* 尽量右对齐否则会出现数字上涨往左偏移的现象 */
+    background-color: #c81623;
+    color: white;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+.nav {
+    height: 62px;
+    border-bottom: 3px solid red;
+}
+.dropdown {
+    float: left;
+    font-size: 16px;
+    width: 207px;
+}
+.dropdown dt {
+    color: white;
+    background-color: #b1191a;
+    width: 100%;
+    height: 100%;
+    line-height: 62px;
+    text-align: center;
+}
+.dropdown dd {
+    width: 207px;
+    height: 465px;
+    background-color: #c81623;
+    color: white;
+}
+.dropdown dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 12px;
+    margin-left: 3px;
+}
+.dropdown dd ul li:hover{
+    background-color: white;
+}
+.dropdown dd ul li a {
+    color: white;
+    font-size: 14px;
+}
+.dropdown dd ul li:hover a {
+    color: #b1191a;
+}
+.dropdown dd ul li::after {
+    position: absolute;
+    right: 10px;
+    content: '';
+    font-family: 'icomoon';
+    margin-right: 10px;
+    font-size: 10px;
+}
+.navitems {
+    float: left;
+    color: #333333;
+    line-height: 62px;
+    text-align: center;
+    
+}
+.navitems a {
+    padding: 0 20px;
+}
+
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+}
+.mod_service {
+    padding-top: 30px;
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.mod_service ul li {
+    float: left;
+    width: 240px;
+    height: 49px;
+    padding-left: 37px;
+}
+.mod_service ul li h1 {
+    float: left;
+    width: 49px;
+    height: 49px;
+    margin-right: 7px;
+}
+.mod_service ul li h3 {
+    font-size: 14px;
+    padding-top: 8px;
+}
+.mod_service ul li p {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.mod_help {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+}
+.mod_help dl {
+    float: left;
+    padding-left: 43px;
+    padding-top: 21px;
+    width: 200px;
+}
+.mod_help dt {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.mod_help dd {
+    font-size: 12px;
+}
+.mod_help dl:last-child {
+    width: 136px;
+    text-align: center;
+}
+.mod_copyright {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    color: #999999;
+}
+.links {
+    margin-bottom: 12px;
+}
+.links a {
+    padding: 0 8px;
+}

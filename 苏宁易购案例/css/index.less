@@ -1,0 +1,97 @@
+@import "common";
+@font: 50;
+// 导入less样式文件
+body {
+    margin: 0 auto;
+    min-width: 320px;
+    width: 15rem;
+    background-color: #f2f2f2;
+    line-height: 1.5;
+    // 固定定位的盒子必须有宽度
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.search-content {
+    width: 15rem;
+    height: (90rem / @font);
+    background-color: #df732e;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: flex;
+    .sort {
+        height: (60rem / @font);
+        width: (36rem / @font);
+        background: url(/images/sort_module.png) no-repeat ;
+        background-size: (36rem / @font) (60rem / @font);
+        margin: (10rem / @font) (10rem / @font);
+    }
+    .search-input {
+        flex: 1;
+        background-color: aqua;
+        input {
+            height: (66rem / @font);
+            width: 100%;
+            border-radius: (20rem / @font);
+            border: 0;
+            outline: none;
+            font-size: (25rem / @font);
+            color: gray;
+            padding-left: (20rem / @font);
+        }
+    }
+    .user {
+        width: (36rem / @font);
+        height: (60rem / @font);
+        margin: (10rem / @font) (10rem / @font);
+        background-color: aquamarine;
+        background: url(/images/user.png) no-repeat;
+        background-size: (36rem / @font) (60rem / @font);
+    }
+}
+.banner {
+    img {
+        display: block;
+        width: 15rem;
+        margin-top: (90rem / @font);
+    }
+}
+.ad {
+    display: flex;
+    a {
+        flex: 1;
+        img {
+            width: 100%;
+        }
+    }
+}
+.nav {
+    width: 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18px;
+    a {
+        float: left;
+        width: (150rem / @font);
+        height: (140rem / @font);
+        flex: 1;
+        margin: (20rem / @font) (20rem / @font) 0;
+        text-align: center;
+        img {
+            display: block;
+            width: (85rem / @font);
+            height: (85rem / @font);
+            margin: (10rem / @font) auto 0;
+        }
+        span {
+            display: block;
+            font-size: (14rem / @font);
+            color: #333;
+        }
+    }
+}

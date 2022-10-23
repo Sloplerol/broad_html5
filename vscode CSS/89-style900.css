@@ -1,0 +1,11 @@
+div {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+div:nth-child(1) {
+    background-color: aqua;
+}
+div:nth-child(2) {
+    background-color: aquamarine;
+}

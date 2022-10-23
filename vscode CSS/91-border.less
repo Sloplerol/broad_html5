@@ -1,0 +1,9 @@
+@border: 6px + 10;
+// 必须运算两边添加空格
+// 两参数运算时只要有一个有单位就行
+//运算时两个参数都有单位第一个为准
+div {
+    width: 500px;
+    height: 500px+200;
+    border: @border solid red;
+}

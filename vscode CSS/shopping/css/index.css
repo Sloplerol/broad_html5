@@ -1,0 +1,247 @@
+.main {
+    height: 455px;
+    width: 983px;
+    margin-left: 217px;
+    margin-top: 10px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: green;
+}
+.newsflash {
+    float: right;
+    width: 252px;
+    height: 455px;
+    margin-left: 10px;
+    border: 1px solid #e4e4e4;
+}
+.news {
+    height: 164px;
+}
+.news-hd{
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 17px;
+    color: #333333;
+}
+.news-hd h3 {
+    float: left;
+    font-size: 14px;
+    line-height: 33px;
+
+}
+.news-hd a {
+    float: right;
+    font-size: 14px;
+    line-height: 33px;
+    color: #333333;
+}
+.news-bd {
+    padding: 11px 17px;
+}
+.news-bd ul li em {
+    font-weight: 700px;
+}
+.news-bd a {
+    display: block;
+    height: 23px;
+    color: #666666;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 214px;
+    border-top: 1px solid #e4e4e4;
+}
+.lifeservice ul {
+    width: 256px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 64px;
+    height: 71px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 21px;
+    height: 28px;
+    margin-top: 13px;
+    background: url(/images/icons.png) no-repeat -19px -16px;
+}
+.bargain {
+    height: 75px;
+    background-color: pink;
+    margin-top: 2px;
+}
+.recom {
+    margin-top: 10px;
+    height: 163px;
+    background-color: aqua;
+}
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.recom-hd img {
+    margin-left: 68px;
+    margin-top: 30px;
+}
+.recom-hd p {
+    margin-left: 68px;
+    margin-top: 10px;
+    color: white;
+}
+
+.recom-bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom-bd ul li {
+    float: left;
+    width: 247px;
+    height: 143px;
+
+}
+.list_hd {
+    height: 32px;
+    line-height: 32px;
+    margin-top: 18px;
+}
+.list_hd i {
+    font-size: 18px;
+    float: left;
+}
+.list_hd a {
+    margin-right: 20px;
+    font-size: 12px;
+    float: right;
+}
+.list_bd {
+    height: 233px;
+    border: 1px solid #ededed;
+}
+.list_bd img {
+    width: 199px;
+    height: 159px;
+}
+.list_bd ul li {
+    position: relative;
+    float: left;
+    width: 199px;
+}
+.list_bd ul li p {
+    margin-left: 25px;
+    font-size: 13px;
+}
+.list_bd ul li p b {
+    font-size: 18px;
+    color: red;
+
+}
+.list_bd ul li:nth-child(-n+5)::after {
+    position: absolute;
+    top: 160px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+}
+.box_hd {
+    margin-top: 30px;
+    height: 35px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.tab_list {
+    float: right;
+    font-size: 12px;
+    
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    padding: 0 15px;
+    line-height: 35px;
+}
+.tab_list ul .first {
+    color: #c81623;
+}
+.tab_content {
+    height: 360px;
+}
+.tab_content>div {
+    float: left;
+    height: 360px;
+}
+.col_210 {
+    background-color: #f9f9f9;
+    width: 210px;
+}
+.col_210_hd ul li {
+    float: left;
+    width: 84px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    margin-left: 12px;
+    text-align: center;
+    line-height: 34px;
+}
+.col_210_hd ul {
+    padding-left: 13px;
+}
+.col_210_bd img {
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.col_330 {
+    width: 330px;
+}
+.col_330 img {
+    width: 330px;
+    height: 360px;
+}
+.col_219 {
+    border-right: 1px solid #ededed;
+    width: 219px;
+}
+.col_219 img {
+    width: 219px;
+
+}
+.col_221 {
+    border-right: 1px solid #ededed;
+    width: 221px;
+}
+.col_220 {
+    width: 220px;
+}
+.bottom {
+    /* 如果a包含有宽度的盒子将其设置为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+
+

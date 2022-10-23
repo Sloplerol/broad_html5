@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .ad {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            margin: 100px auto;
+            background-color: aqua;
+        }
+        .ad img {
+            width: 520px;
+            height: 280px;
+        }
+        .left {
+            position: absolute;
+            top: 50%;
+            margin-top: -42px;
+            left: 0;
+            width: 32px;
+            height: 84px;
+            background: rgba(0,0,0,0.3);
+            border-top-right-radius: 42px;
+            border-bottom-right-radius: 42px;
+            line-height: 84px;
+            color: white;
+            text-align: center;
+        }
+        .right {
+            position: absolute;
+            top: 50%;
+            margin-top: -42px;
+            right: 0;
+            width: 32px;
+            height: 84px;
+            background: rgba(0,0,0,0.3);
+            border-top-left-radius: 42px; 
+            border-bottom-left-radius: 42px;
+            line-height: 84px;
+            color: white;
+            text-align: center;
+        }
+        .bottom {
+            position: absolute;
+            width: 70px;
+            height: 12px;
+            bottom: 16px;
+            left: 50%;
+            margin-left: -35px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 6px;
+
+        }
+        li {
+            list-style: none;
+        }
+        .bottom li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            margin: 4px;
+            border-radius: 50%;
+        }
+        .bottom .select {
+            background-color: rgb(232, 80, 61);
+        }
+    </style>
+</head>
+<body>
+    <div class="ad">
+        <img src="/taobaoad.jpeg" alt="">
+        <div class="left">&gt;</div>
+        <div class="right">&lt;</div>
+        <ul class="bottom">
+            <li class="select"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            
+        </ul>
+    </div>
+</body>
+</html>
